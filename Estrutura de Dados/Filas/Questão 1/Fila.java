@@ -9,7 +9,7 @@ public class Fila{
    }
    
    public void inserirFim(int numero){
-   if(topo-1 == TAMANHO_LIMITE){
+   if(topo+1 == TAMANHO_LIMITE){
       System.out.println("LISTA CHEIA");
       }else{
          elementos[++topo] = numero;
